@@ -17,7 +17,7 @@ class Category{
     /**
      * Get the value of name
      */ 
-    public function getName()
+    public function getName() :string       //il tipo di dato che mi ritornerà la funzione!  Meglio da usare cosi!
     {
         return $this->name;
     }
@@ -28,7 +28,7 @@ class Category{
     /**
      * Get the value of icon
      */ 
-    public function getIcon()
+    public function getIcon()   :string     //il tipo di dato che mi ritornerà la funzione! 
     {
         return $this->icon;
     }
@@ -38,7 +38,7 @@ class Category{
      *
      * 
      */ 
-    public function setIcon($icon)
+    public function setIcon(string $icon)          //il tipo di dato che mi ritornerà la funzione()
     {
         $this->icon = $icon;
 
